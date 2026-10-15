@@ -64,7 +64,6 @@
     .button svg { width: 16px; height: 16px; }
     .under-note { margin-top: 22px; color: #69736b; font-size: 11px; letter-spacing: .04em; }
 
-    /* CSS mockup: representa la aplicación sin depender de capturas ni recursos externos. */
     .product-stage { position: relative; perspective: 1200px; }
     .stage-glow { position: absolute; inset: 12% 3%; background: rgba(156,209,100,.13); filter: blur(65px); border-radius: 50%; pointer-events: none; }
     .app-window { position: relative; overflow: hidden; border: 1px solid rgba(228,239,229,.15); border-radius: 19px; background: #0a0d0b; box-shadow: 0 38px 100px rgba(0,0,0,.56), 0 0 0 7px rgba(255,255,255,.012); transform: rotateY(-5deg) rotateX(1deg); }
@@ -347,11 +346,11 @@
             <div class="release-meta"><span class="meta-pill">Windows</span><span class="meta-pill">Python + Tkinter</span><span class="meta-pill">Beta gratuita</span></div>
           </div>
           <div>
-            <a class="button button-primary" href="nightstand_spotify_windows.zip" download>
+            <a class="button button-primary" href="https://github.com/SUNT4G/NightStand/blob/main/NightStand%200%2C4v.zip" target="_blank" rel="noopener noreferrer">
               <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 3v11m0 0 4-4m-4 4-4-4M4 16v4h16v-4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
               Descargar NIGHTSTAND (.ZIP)
             </a>
-            <p class="download-note">Si publicas esta página en una web, coloca <code>nightstand_spotify_windows.zip</code> en la misma carpeta que el HTML para que el botón funcione.</p>
+            <p class="download-note">Haz clic para descargar la última versión directamente desde el repositorio oficial de GitHub.</p>
           </div>
         </aside>
       </div>
@@ -403,7 +402,6 @@
   </footer>
 
   <script>
-    // Reloj ilustrativo de la maqueta; no controla el temporizador real de escritorio.
     (function () {
       const clock = document.getElementById('demo-clock');
       if (clock) {
